@@ -1,6 +1,19 @@
 ﻿@{
     ViewBag.Title = "Kick-Ass Calendar";
 }
-<form runat="server">
-    <asp:Calendar runat="server"/>
-</form>
+<script>
+    //generates calendar using jquery.calendar-widget.js
+    $(document).ready(function () {
+        $("#calendar").calendarWidget({
+        });
+    })
+
+    function changeMonth() {
+    //haven't figured this one out yet.
+    }
+</script>
+<div id="calendar">
+    @*empty because it contains the calendar generated above*@
+</div>
+<button class="calButton" onclick="changeMonth()"> < </button>
+<button class="calButton" onclick="changeMonth()"> > </button>

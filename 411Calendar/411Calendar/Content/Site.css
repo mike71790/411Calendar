@@ -587,6 +587,27 @@ tr.pager td {
     padding: 0 0.25em 0 0;
 }
 
+/*Calendar----------------------------------------------------*/
+.calendar-month td, .calendar-month th {
+    border: 1px black solid;
+    padding: 5px;
+    text-align:center;
+}
+
+.calendar-month th {
+    color: white;
+    background-color:#333333;
+}
+
+.other-month {
+    background-color:#bfbdbf;
+}
+
+.calButton {
+    font-size:xx-large;
+    font:bold;
+}
+
 
 /********************
 *   Mobile Styles   *
