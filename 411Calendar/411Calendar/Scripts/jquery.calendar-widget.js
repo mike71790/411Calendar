@@ -91,11 +91,10 @@
 		}
 	}
 	
-	
 	// jQuery plugin initialisation
 	$.fn.calendarWidget = function(params) {    
 		calendarWidget(this, params);		
 		return this; 
-	}; 
+	};
 
 })(jQuery);

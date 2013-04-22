@@ -98,13 +98,12 @@ h5, h6 {
 }
 
 #body {
-    background-color: #efeeef;
+    
     clear: both;
     padding-bottom: 35px;
 }
 
-    .main-content {
-        
+    .main-content {       
         padding-left: 10px;
         padding-top: 30px;
     }
@@ -596,7 +595,7 @@ tr.pager td {
 
 .calendar-month th {
     color: white;
-    background-color:#333333;
+    background-color:#007CE2;
 }
 
 .other-month {
